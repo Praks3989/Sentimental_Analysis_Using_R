@@ -1,0 +1,13 @@
+This is a Sentiment Analysis program developed for Textual data. We developed this system as an academic project at Masters level. 
+
+Input Data:
+We have used Twitter data as input. We exported the sample tweets in JSON format and used this file as static input. In reality, this can be made dynamic by giving twitter feed to the analyzer.
+
+Analyzing software:
+To analyze the tweets feed for positive and negative sentiments, we used R programming language. R provided us with powerfull tools to process large amount of data and plot it to informative visualizatons.
+
+Sentiment Dictionary:
+We used AFINN-111 word scores for getting sentiment scores for common english words. Each word in the list have scores from -5 to +5 i.e. very negative to very positive.
+
+http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010
+https://arxiv.org/abs/1103.2903
